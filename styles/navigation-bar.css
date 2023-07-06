@@ -1,0 +1,57 @@
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 550px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo {
+    cursor: pointer;
+    padding-left: 6vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.students { 
+    height: 20px;
+}
+.search {
+    height: 20px;
+}
+
+.menu {
+    height: 20px;
+    margin-right: 1vh;
+
+}
+
+.option {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-right: 6vh;
+    padding-left: 6vh;
+    font-size: 15px;
+    font-family: EB Garamond, Arial;
+    font-weight: bold;
+    color: gray;
+}
+
+.option:hover {
+    background-color: rgb(240,240,240);
+}
+
+.option-names {
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
